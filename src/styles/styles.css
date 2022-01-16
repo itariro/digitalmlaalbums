@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+  font: 16px "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+/*
+  Add your custom global styles here.
+  The styles provided below are a minimal suggested starting point.
+*/
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.nav-background {
+  background-color: #62549a;
+}
+.nav--logo {
+  position: absolute;
+  left: 30px;
+  top: 22px;
+}
+
+.search--bar {
+  display: flex;
+  justify-content: flex-end;
+}
